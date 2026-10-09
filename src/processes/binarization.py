@@ -1,6 +1,6 @@
 import cv2
 
-MY_THRESHOLD = 100
+MY_THRESHOLD = 127
 
 def binarize_image(img, output_path):
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
